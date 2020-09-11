@@ -11,7 +11,6 @@ main {
 	width: 100%;
 	margin: 3.125rem auto 0 auto;
 	box-sizing: border-box;
-
 }
 
 form {
@@ -21,6 +20,7 @@ form {
 	padding: 2rem;
 	border-radius: 4px;
 	margin-left: 300px;
+	margin-right: 300px;
 }
 
 .input-control {
@@ -41,8 +41,8 @@ p {
 	margin: 0;
 	margin-bottom: 0.3rem; 
 }
-p span a {
-	color: red;
+span a {
+	color: #e0a2a2;
 }
 
 .btn-submit {
@@ -70,6 +70,14 @@ select, input, textarea, footer {
 	font-size: 1rem;
 }
 
+@media only screen and (min-width: 480px) {
+	form {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
 .radio-box, .checkbox-design {
 	display: inline-block;
     margin-right: 0.625rem;
@@ -77,10 +85,6 @@ select, input, textarea, footer {
     min-width: 1.25rem;
 }
 
-a {
-	text-decoration: none;
-	color: white;
-}
 .text-center {
 	text-align: center;
 }
