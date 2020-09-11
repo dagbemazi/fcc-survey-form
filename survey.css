@@ -1,0 +1,97 @@
+body {
+	background-image:
+	 url(https://images.unsplash.com/photo-1530508326296-72d2590634e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+	color: white;
+	font-family: "Salsa", cursive, sans-serif;
+	font-size: 1.4rem;
+	margin: 0;
+}
+
+main {
+	width: 100%;
+	margin: 3.125rem auto 0 auto;
+	box-sizing: border-box;
+}
+
+form {
+	box-sizing: border-box;
+	width: 700px;
+	background-color: #61a99f94;
+	padding: 2rem;
+	border-radius: 4px;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+.input-control {
+	width: 100%;
+	height: 2.2rem;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	border-radius: 0.25rem;
+}
+textarea {
+	resize: vertical;
+	width: 100%;
+	min-height: 120px;
+}
+p {
+	margin: 0;
+	margin-bottom: 0.3rem; 
+}
+span a {
+	color: #e0a2a2;
+}
+
+.btn-submit {
+	width: 100%;
+	background-color: #17cc7d;
+	border-radius: 2px;
+	padding: 0.5rem;
+	cursor: pointer;
+}
+label {
+	display: flex;
+}
+.form-group {
+	margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+select {
+	width: 100%;
+	height: 2rem;
+	border-radius: 2px;
+}
+
+select, input, textarea, footer {
+	font-family: sans-serif;
+	font-size: 1rem;
+}
+
+@media only screen and (min-width: 480px) {
+	form {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+.radio-box, .checkbox-design {
+	display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+.text-center {
+	text-align: center;
+}
+
+#description {
+	font-style: italic;
+	font-family: sans-serif;
+	font-size: 1.05rem;
+	margin-bottom: 2rem;
+}
